@@ -1,0 +1,26 @@
+syntax = "proto3";
+package Interface;
+
+option java_package = "com.bearwithheadphones.ledz.Interface";
+option java_outer_classname = "BTMsg";
+
+import "Led.proto";
+import "Stripe.proto";
+import "Anim.proto";
+import "CustomAnim.proto";
+
+message BTMessage {
+  enum Type { LED = 0; STRIPE = 1; ANIM = 2; CUSTOMANIM = 3; }
+
+  // Identifies which field is filled in.
+  Type type = 1;
+
+  // One of the following will be filled in.
+  Led led = 2;
+  Stripe stripe = 3;
+  Anim anim = 4;
+  CustomAnim customAnimation = 5;
+
+  //optional Bar bar = 3;
+  //optional Baz baz = 4;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package Interface;
+
+option java_package = "com.bearwithheadphones.ledz.Interface";
+option java_outer_classname = "LedMsg";
+
+message Led {
+   int32 index = 1;
+   int32 red = 2;
+   int32 green = 3;
+   int32 blue = 4;
+}

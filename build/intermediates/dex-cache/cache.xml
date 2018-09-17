@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/bartoszcwynar/Documents/Development/Android/leds/LEDZ/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/bartoszcwynar/Documents/Development/Android/leds/LEDZ/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_22100db71dfda72be61b0197e0977a0e16665f65/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bartoszcwynar/Documents/Development/Android/leds/LEDZ/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="261b24a0c601f3c07528bd6b0ff137937e4d17ef">
+        <dex dex="/Users/bartoszcwynar/Documents/Development/Android/leds/LEDZ/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9944c2b2cc07dda51d206a1f5e5e6691336ce06d/classes.dex" />
+    </item>
+
+</items>

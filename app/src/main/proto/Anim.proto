@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package Interface;
+
+option java_package = "com.bearwithheadphones.ledz.Interface";
+option java_outer_classname = "AnimMsg";
+
+message Anim {
+    string animName = 1;
+}

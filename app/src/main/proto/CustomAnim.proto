@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package Interface;
+option java_package = "com.bearwithheadphones.ledz.Interface";
+option java_outer_classname = "CustomAnimMsg";
+
+import "Stripe.proto";
+
+message CustomAnim {
+    repeated Stripe frames = 1;
+    int32 fps = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package Interface;
+
+option java_package = "com.bearwithheadphones.ledz.Interface";
+option java_outer_classname = "StripeMsg";
+
+import "Led.proto";
+message Stripe {
+    repeated Led leds = 1;
+}
